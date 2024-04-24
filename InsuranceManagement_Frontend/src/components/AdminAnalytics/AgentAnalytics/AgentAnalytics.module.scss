@@ -1,0 +1,34 @@
+@import '../../../assets/variables.scss';
+
+.title {
+    padding: 1rem 0;
+    font-family: "poppins";
+    color: $light5;
+    
+
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+
+    * {
+        font-family: "poppins";
+        color: $light4;
+    }
+
+    >div {
+        background: white;
+        padding: 1rem;
+        border-radius: 1rem;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+        h3 {
+            padding: 1rem ;
+        }
+    
+    }
+}
+
+

@@ -1,0 +1,81 @@
+@import '../../assets/variables.scss';
+
+.container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    .button {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        background: white;
+        
+        
+    }
+}
+
+.title {
+    padding: 1rem 0;
+    font-family: "poppins";
+    color: $light5;
+}
+
+.secondaryTitle {
+    padding: 1rem 0;
+    font-family: "poppins";
+    color: $light5;
+    font-size: 2rem;
+    text-align: center;
+}
+.button svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.chartContainer {
+   
+        background: white;
+        padding: 1rem;
+        border-radius: 1rem;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        
+        h3 {
+            padding: 1rem ;
+        }
+        
+        > div {
+            width: 100%;
+        }
+}
+
+.chartsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    
+    
+    .chart {
+        padding: 1rem;
+        background: white;
+        border-radius: 1rem;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    p {
+        color: $dark4;
+        background: white;  
+        border-radius: 1rem;
+        padding: 1rem;
+
+    }
+}
